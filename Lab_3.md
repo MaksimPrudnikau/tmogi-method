@@ -416,7 +416,7 @@ $$
 СКП единицы веса
 
 $$
-\nu = \sqrt{\frac{V^T \cdot P \cdot V}{N - t}}
+\mu = \sqrt{\frac{V^T \cdot P \cdot V}{N - t}}
 $$
 
 где $V^T \cdot P \cdot V = 0,9111$, $\mu = 0,477$
