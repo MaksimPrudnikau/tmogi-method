@@ -161,7 +161,7 @@ $$
 | 16 | 0        | -0,254  | 0,254    |
 
 $$
-\begin{pmatrix}
+\begin{matrix}
 a_{11} \cdot z_{1}a_{12} \cdot z_{2}a_{13} \cdot z_{3}a_{14} \cdot z_{4}a_{15} \cdot z_{5}a_{16} \cdot z_{6} + l_{1}         \\
 a_{21} \cdot z_{1}a_{22} \cdot z_{2}a_{23} \cdot z_{3}a_{24} \cdot z_{4}a_{25} \cdot z_{5}a_{26} \cdot z_{6} + l_{2}         \\
 a_{31} \cdot z_{1}a_{32} \cdot z_{2}a_{33} \cdot z_{3}a_{34} \cdot z_{4}a_{35} \cdot z_{5}a_{36} \cdot z_{6} + l_{3}         \\
@@ -178,7 +178,7 @@ a_{131} \cdot z_{1}a_{132} \cdot z_{2}a_{133} \cdot z_{3}a_{134} \cdot z_{4}a_{1
 a_{141} \cdot z_{1}a_{142} \cdot z_{2}a_{143} \cdot z_{3}a_{144} \cdot z_{4}a_{145} \cdot z_{5}a_{146} \cdot z_{6} + l_{14}  \\
 a_{151} \cdot z_{1}a_{152} \cdot z_{2}a_{153} \cdot z_{3}a_{154} \cdot z_{4}a_{155} \cdot z_{5}a_{156} \cdot z_{6} + l_{15}  \\
 a_{161} \cdot z_{1}a_{162} \cdot z_{2}a_{163} \cdot z_{3}a_{164} \cdot z_{4}a_{165} \cdot z_{5}a_{166} \cdot z_{6} + l_{16}  \\
-\end{pmatrix}
+\end{matrix}
 $$
 
 Создадим матрицу коэффициентов параметрических уравнений поправок $A$
@@ -199,7 +199,7 @@ $$
 $m_{h_3}^2 = \left( \frac{\partial f}{\partial z_1} \right)^2 \cdot m_{z_1}^2 + \left( \frac{\partial f}{\partial z_2} \right)^2 \cdot m_{z_2}^2+$
 $\left( \frac{\partial f}{\partial z_3} \right)^2 \cdot m_{z_3}^2 + \left( \frac{\partial f}{\partial z_4} \right)^2 \cdot m_{z_4}^2$
 $\left( \frac{\partial f}{\partial z_5} \right)^2 \cdot m_{z_5}^2 + \left( \frac{\partial f}{\partial z_6} \right)^2 \cdot m_{z_6}^2$
-$ = (-1)^2 \cdot m_{z_1}^2 + 1^2 \cdot m_{z_2}^2 + 1^2 \cdot m_{z_3}^2 + 0^2 \cdot m_{z_4}^2 + 0^2 \cdot m_{z_5}^2 + 0^2 \cdot m_{z_6}^2$
+$= (-1)^2 \cdot m_{z_1}^2 + 1^2 \cdot m_{z_2}^2 + 1^2 \cdot m_{z_3}^2 + 0^2 \cdot m_{z_4}^2 + 0^2 \cdot m_{z_5}^2 + 0^2 \cdot m_{z_6}^2$
 $=-1 1 1 0 0 0$
 
 $$
