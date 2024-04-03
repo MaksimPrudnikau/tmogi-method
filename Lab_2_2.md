@@ -161,24 +161,34 @@ $$
 | 16 | 0        | -0,254  | 0,254    |
 
 $$
-\begin{matrix}
-a_{11} \cdot z_{1}a_{12} \cdot z_{2}a_{13} \cdot z_{3}a_{14} \cdot z_{4}a_{15} \cdot z_{5}a_{16} \cdot z_{6} + l_{1}         \\
-a_{21} \cdot z_{1}a_{22} \cdot z_{2}a_{23} \cdot z_{3}a_{24} \cdot z_{4}a_{25} \cdot z_{5}a_{26} \cdot z_{6} + l_{2}         \\
-a_{31} \cdot z_{1}a_{32} \cdot z_{2}a_{33} \cdot z_{3}a_{34} \cdot z_{4}a_{35} \cdot z_{5}a_{36} \cdot z_{6} + l_{3}         \\
-a_{41} \cdot z_{1}a_{42} \cdot z_{2}a_{43} \cdot z_{3}a_{44} \cdot z_{4}a_{45} \cdot z_{5}a_{46} \cdot z_{6} + l_{4}         \\
-a_{51} \cdot z_{1}a_{52} \cdot z_{2}a_{53} \cdot z_{3}a_{54} \cdot z_{4}a_{55} \cdot z_{5}a_{56} \cdot z_{6} + l_{5}         \\
-a_{61} \cdot z_{1}a_{62} \cdot z_{2}a_{63} \cdot z_{3}a_{64} \cdot z_{4}a_{65} \cdot z_{5}a_{66} \cdot z_{6} + l_{6}         \\
-a_{71} \cdot z_{1}a_{72} \cdot z_{2}a_{73} \cdot z_{3}a_{74} \cdot z_{4}a_{75} \cdot z_{5}a_{76} \cdot z_{6} + l_{7}         \\
-a_{81} \cdot z_{1}a_{82} \cdot z_{2}a_{83} \cdot z_{3}a_{84} \cdot z_{4}a_{85} \cdot z_{5}a_{86} \cdot z_{6} + l_{8}         \\
-a_{91} \cdot z_{1}a_{92} \cdot z_{2}a_{93} \cdot z_{3}a_{94} \cdot z_{4}a_{95} \cdot z_{5}a_{96} \cdot z_{6} + l_{9}         \\
-a_{101} \cdot z_{1}a_{102} \cdot z_{2}a_{103} \cdot z_{3}a_{104} \cdot z_{4}a_{105} \cdot z_{5}a_{106} \cdot z_{6} + l_{10}  \\
-a_{111} \cdot z_{1}a_{112} \cdot z_{2}a_{113} \cdot z_{3}a_{114} \cdot z_{4}a_{115} \cdot z_{5}a_{116} \cdot z_{6} + l_{11}  \\
-a_{121} \cdot z_{1}a_{122} \cdot z_{2}a_{123} \cdot z_{3}a_{124} \cdot z_{4}a_{125} \cdot z_{5}a_{126} \cdot z_{6} + l_{12}  \\
-a_{131} \cdot z_{1}a_{132} \cdot z_{2}a_{133} \cdot z_{3}a_{134} \cdot z_{4}a_{135} \cdot z_{5}a_{136} \cdot z_{6} + l_{13}  \\
-a_{141} \cdot z_{1}a_{142} \cdot z_{2}a_{143} \cdot z_{3}a_{144} \cdot z_{4}a_{145} \cdot z_{5}a_{146} \cdot z_{6} + l_{14}  \\
-a_{151} \cdot z_{1}a_{152} \cdot z_{2}a_{153} \cdot z_{3}a_{154} \cdot z_{4}a_{155} \cdot z_{5}a_{156} \cdot z_{6} + l_{15}  \\
-a_{161} \cdot z_{1}a_{162} \cdot z_{2}a_{163} \cdot z_{3}a_{164} \cdot z_{4}a_{165} \cdot z_{5}a_{166} \cdot z_{6} + l_{16}  \\
-\end{matrix}
+\begin{cases}
+\nu_{1} = a_{11} \cdot z_{1} + a_{12} \cdot z_{2} + a_{13} \cdot z_{3} + a_{14} \cdot z_{4} + a_{15} \cdot z_{5} + a_{16} \cdot z_{6} + l_{1}         \\
+\nu_{2} = a_{21} \cdot z_{1} + a_{22} \cdot z_{2} + a_{23} \cdot z_{3} + a_{24} \cdot z_{4} + a_{25} \cdot z_{5} + a_{26} \cdot z_{6} + l_{2}         \\
+\nu_{3} = a_{31} \cdot z_{1} + a_{32} \cdot z_{2} + a_{33} \cdot z_{3} + a_{34} \cdot z_{4} + a_{35} \cdot z_{5} + a_{36} \cdot z_{6} + l_{3}         \\
+\nu_{4} = a_{41} \cdot z_{1} + a_{42} \cdot z_{2} + a_{43} \cdot z_{3} + a_{44} \cdot z_{4} + a_{45} \cdot z_{5} + a_{46} \cdot z_{6} + l_{4}         \\
+\nu_{5} = a_{51} \cdot z_{1} + a_{52} \cdot z_{2} + a_{53} \cdot z_{3} + a_{54} \cdot z_{4} + a_{55} \cdot z_{5} + a_{56} \cdot z_{6} + l_{5}         \\
+\end{cases}
+$$
+
+$$
+\begin{cases}
+\nu_{6} = a_{61} \cdot z_{1} + a_{62} \cdot z_{2} + a_{63} \cdot z_{3} + a_{64} \cdot z_{4} + a_{65} \cdot z_{5} + a_{66} \cdot z_{6} + l_{6}         \\
+\nu_{7} = a_{71} \cdot z_{1} + a_{72} \cdot z_{2} + a_{73} \cdot z_{3} + a_{74} \cdot z_{4} + a_{75} \cdot z_{5} + a_{76} \cdot z_{6} + l_{7}         \\
+\nu_{8} = a_{81} \cdot z_{1} + a_{82} \cdot z_{2} + a_{83} \cdot z_{3} + a_{84} \cdot z_{4} + a_{85} \cdot z_{5} + a_{86} \cdot z_{6} + l_{8}         \\
+\nu_{9} = a_{91} \cdot z_{1} + a_{92} \cdot z_{2} + a_{93} \cdot z_{3} + a_{94} \cdot z_{4} + a_{95} \cdot z_{5} + a_{96} \cdot z_{6} + l_{9}         \\
+\nu_{10} = a_{101} \cdot z_{1} + a_{102} \cdot z_{2} + a_{103} \cdot z_{3} + a_{104} \cdot z_{4} + a_{105} \cdot z_{5} + a_{106} \cdot z_{6} + l_{10}  \\
+\nu_{11} = a_{111} \cdot z_{1} + a_{112} \cdot z_{2} + a_{113} \cdot z_{3} + a_{114} \cdot z_{4} + a_{115} \cdot z_{5} + a_{116} \cdot z_{6} + l_{11}  \\
+\end{cases}
+$$
+
+$$
+\begin{cases}
+\nu_{12} = a_{121} \cdot z_{1} + a_{122} \cdot z_{2} + a_{123} \cdot z_{3} + a_{124} \cdot z_{4} + a_{125} \cdot z_{5} + a_{126} \cdot z_{6} + l_{12}  \\
+\nu_{13} = a_{131} \cdot z_{1} + a_{132} \cdot z_{2} + a_{133} \cdot z_{3} + a_{134} \cdot z_{4} + a_{135} \cdot z_{5} + a_{136} \cdot z_{6} + l_{13}  \\
+\nu_{14} = a_{141} \cdot z_{1} + a_{142} \cdot z_{2} + a_{143} \cdot z_{3} + a_{144} \cdot z_{4} + a_{145} \cdot z_{5} + a_{146} \cdot z_{6} + l_{14}  \\
+\nu_{15} = a_{151} \cdot z_{1} + a_{152} \cdot z_{2} + a_{153} \cdot z_{3} + a_{154} \cdot z_{4} + a_{155} \cdot z_{5} + a_{156} \cdot z_{6} + l_{15}  \\
+\nu_{16} = a_{161} \cdot z_{1} + a_{162} \cdot z_{2} + a_{163} \cdot z_{3} + a_{164} \cdot z_{4} + a_{165} \cdot z_{5} + a_{166} \cdot z_{6} + l_{16}  \\
+\end{cases}
 $$
 
 Создадим матрицу коэффициентов параметрических уравнений поправок $A$
@@ -506,12 +516,12 @@ m_{H_6} \\
 \sqrt{Q_{66}^H} \\
 \end{pmatrix} =
 \begin{pmatrix}
-0,013   //
-0,011   //
-0,012   //
-0,011   //
-0,012   //
-0,013   //
+0,013   \\
+0,011   \\
+0,012   \\
+0,011   \\
+0,012   \\
+0,013   \\
 \end{pmatrix}
 $$
 
