@@ -363,6 +363,7 @@ Q_{ур}^H = \begin{pmatrix}
 $$
 
 СКП единицы веса:
+
 $$
 \mu = \sqrt{\frac{V^T \cdot P \cdot V}{N  - t}}
 $$
